@@ -33,7 +33,7 @@ This means that a project will generally consist of a Sway contract and a user i
 
 Each project within this repository is independent of the other projects and thus every project has its own directory with all of the files required to make it work.
 
-That being said they are all under the same [CI](.github/workflows/ci.yml) so any updates to a project must make sure that the other projects continue to pass.
+However, it's important to keep in mind that all the projects are integrated within the same [CI](.github/workflows/ci.yml) system. Therefore, any updates or modifications to one project must guarantee that the other projects still function correctly.
 
 The following is a visual sample of how the repository is structured.
 
